@@ -22,7 +22,7 @@
     settings:keywords="@string/keywords_display"
     settings:initialExpandedChildrenCount="5">
 
-    <com.android.settingslib.RestrictedPreference
+        <com.android.settingslib.RestrictedPreference
         android:key="brightness"
         android:title="@string/brightness"
         settings:keywords="@string/keywords_display_brightness_level"
@@ -77,11 +77,11 @@
         android:fragment="com.android.settings.display.AdaptiveSleepSettings"
         settings:controller="com.android.settings.display.AdaptiveSleepPreferenceController" />
 
-    <SwitchPreference
-        android:key="auto_rotate"
-        android:title="@string/accelerometer_title"
-        settings:keywords="@string/keywords_auto_rotate"
-        settings:controller="com.android.settings.display.AutoRotatePreferenceController" />
+     <Preference
+            android:key="display_rotation"
+            android:fragment="com.android.settings.preference.DisplayRotation"
+            android:title="@string/display_rotation_title"
+            android:summary="@string/display_rotation_subtitle" />
 
     <Preference
         android:key="color_mode"
