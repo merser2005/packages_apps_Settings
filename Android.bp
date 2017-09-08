@@ -84,6 +84,13 @@ android_app {
     resource_dirs: [],
     optimize: {
         proguard_flags_files: ["proguard.flags"],
+        aapt_flags : [
+        "--auto-add-overlay",
+        "--extra-packages org.cesium.config.center",
+     ],
+    srcs:["../ConfigCenter/src"],
+    
+                      
     },
 }
 
