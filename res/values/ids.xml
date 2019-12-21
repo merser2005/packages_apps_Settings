@@ -34,4 +34,7 @@
 
     <!-- For a menu item allowing users to edit a SIM display name -->
     <item type="id" name="edit_sim_name" />
+
+    <!-- AppLock -->
+    <item type="id" name="applock" />
 </resources>

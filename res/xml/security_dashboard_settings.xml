@@ -125,6 +125,19 @@
             android:targetClass="com.android.settings.Settings$IccLockSettingsActivity" />
 
     </Preference>
+  
+    <Preference
+        android:order="55"
+        android:key="applock"
+        android:title="App Lock"
+        android:summary="Secure your private apps">
+
+        <intent
+            android:targetPackage="io.github.subhamtyagi.privacyapplock"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.lzx.lock.activities.main.SplashActivity" />
+
+    </Preference>
 
     <Preference
         android:order="60"
