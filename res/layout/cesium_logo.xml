@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019 The CesiumOS Project
+    Copyright (C) 2020 The CesiumOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,8 +24,8 @@
 
         <ImageView
             android:adjustViewBounds="true"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_width="155dp"
             android:scaleType="centerInside"
             android:src="@drawable/cesium_logo"/>
 
