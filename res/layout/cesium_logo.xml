@@ -24,8 +24,8 @@
 
         <ImageView
             android:adjustViewBounds="true"
-            android:layout_height="1080dp"
-            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
             android:scaleType="centerInside"
             android:src="@drawable/cesium_logo"/>
 
