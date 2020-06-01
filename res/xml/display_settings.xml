@@ -85,13 +85,6 @@
             android:title="@string/display_rotation_title"
             android:summary="@string/display_rotation_subtitle" />
 
-        <org.cesium.config.center.preferences.SystemSettingSwitchPreference
-            android:key="hide_notch"
-            android:title="@string/hide_notch_title"
-            android:summary="@string/hide_notch_subtitle"
-            android:defaultValue="false"
-            settings:controller="com.android.settings.display.HideNotchController" />
-
     <Preference
         android:key="color_mode"
         android:title="@string/color_mode_title"
@@ -157,4 +150,5 @@
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+
 </PreferenceScreen>
