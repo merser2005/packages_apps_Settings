@@ -32,7 +32,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class RomVersionDetailPreferenceController extends BasePreferenceController {
 
-    private static final Uri INTENT_URI_DATA = Uri.parse("https://paypal.me/bunnyy95/");
+    private static final Uri INTENT_URI_DATA = Uri.parse("https://t.me/CesiumOS_News");
     private static final String TAG = "romDialogCtrl";
     private static final String KEY_ROM_VERSION_PROP = "org.cesium.build_version";
     private static final String KEY_ROM_RELEASETYPE_PROP = "org.cesium.build_type";

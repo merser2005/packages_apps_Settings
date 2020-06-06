@@ -32,7 +32,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class RomLogoPreferenceController extends BasePreferenceController {
 
-    private static final Uri INTENT_URI_DATA = Uri.parse("https://cesiumos.xyz/");
+    private static final Uri INTENT_URI_DATA = Uri.parse("https://github.com/CesiumOS-org");
     private static final String TAG = "romDialogCtrl";
     private final PackageManager mPackageManager = this.mContext.getPackageManager();
 
