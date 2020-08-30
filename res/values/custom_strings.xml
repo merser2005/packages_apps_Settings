@@ -58,10 +58,6 @@
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
 
-    <!-- Hide notch -->
-    <string name="hide_notch_title">Hide notch</string>
-    <string name="hide_notch_subtitle">Draws black bar behind statusbar to hide notch</string>
-
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
@@ -161,9 +157,5 @@
     <string name="home_handle_sizer_title">Gesture bar size</string>
     <string name="home_handle_low_label">Small (AOSP)</string>
     <string name="home_handle_high_label">Long</string>
-
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
 
 </resources>
